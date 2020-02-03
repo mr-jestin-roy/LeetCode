@@ -1,0 +1,23 @@
+class Solution {
+public:
+    
+    int removePalindromeSub(string s) {
+        
+        if(s.empty()) return 0;
+        
+        bool isPalindrome = true;
+        
+        int start = 0;
+        int end = s.size()-1;
+        
+        while(start<end){
+            if(s[start]!=s[end]) {isPalindrome = false; break;}
+            
+            start++;
+            end--;
+        }
+        
+        return isPalindrome?1:2;
+       
+    }
+};---------------------
