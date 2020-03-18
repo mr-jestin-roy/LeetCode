@@ -24,5 +24,5 @@ int main()
         {
         	cout<< i ;
         	}
-return 0;
+   return 0;
 } 
