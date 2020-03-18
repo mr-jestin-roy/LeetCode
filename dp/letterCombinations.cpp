@@ -24,16 +24,10 @@ public:
         string eq = lettCombMap[digits[index]];
         
         for(int i=0;i<eq.size();i++){
-            
             mne+=eq[i];
             combinations(digits,mne,size-1,index+1);
             mne.pop_back();
             
         }
     }
-        
-        
-        
-        
-        
-    };
+};

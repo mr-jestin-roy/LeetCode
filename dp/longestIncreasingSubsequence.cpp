@@ -16,17 +16,11 @@ public:
             maxlength =0;
          for(int j=0;j<i;j++){
                 if(nums[i]>nums[j])
-                
                 {   if(maxlength<dp[j])
                     maxlength = dp[j];
-                   
                 }
-             
             }
-            
              dp[i]+=maxlength;
         }
-            
-        
     }
 };
