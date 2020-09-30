@@ -1,5 +1,5 @@
 # LeetCode-
-All my submissions on leetcode
+All my submissions on leetcode here:
 
 Looking for Completing all the problems from:
 [Shortlisted LeetCode Problems](https://docs.google.com/spreadsheets/d/1SbpY-04Cz8EWw3A_LBUmDEXKUMO31DBjfeMoA0dlfIA/htmlview?sle=true#)
